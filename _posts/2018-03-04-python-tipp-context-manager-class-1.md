@@ -1,12 +1,11 @@
 ---
 layout: post
-title:  "Python Tipp 1: How to write a context manager"
+title:  "Python Tipp 1: How to write a class based context manager"
 date:   2018-03-04 19:19:41 +0100
 categories: python-tipp python contextmanager context manager
 
 ---
 
-## Python Tipp 1 - Class based context managers
 
 Sometimes you catch yourself writing code that is full of try and except blocks to deal with a component that has an open and close function.
 
