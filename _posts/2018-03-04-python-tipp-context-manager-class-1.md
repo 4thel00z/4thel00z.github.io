@@ -6,7 +6,7 @@ categories: python-tipp python contextmanager context manager
 
 ---
 
-# Python Tipp 1 - Class based context managers
+## Python Tipp 1 - Class based context managers
 
 Sometimes you catch yourself writing code that is full of try and except blocks to deal with a component that has an open and close function.
 
