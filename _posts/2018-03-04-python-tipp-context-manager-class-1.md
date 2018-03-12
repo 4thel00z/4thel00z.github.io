@@ -18,7 +18,8 @@ class ConnectionPool(BoilerPlateConnectionPool):
 
     def open(self, res: Resource) -> Connection:
         """
-            Do some opening operation
+        Do some opening operation
+        :param res:
         """
         con = None
       
@@ -33,19 +34,21 @@ class ConnectionPool(BoilerPlateConnectionPool):
 
     def close(self, con: Connection):
         """
-            Do some closing operation
-            If not invoked we will get a memory leak
+        Do some closing operation
+        If not invoked we will get a memory leak
+        :param con:
         """
         if con.is_closed():
             raise ConnectionException()
         
         self._look_up_closer(con).close()
         
-    def handle(self,req:Request):
+    def handle(self, req: Request):
         """
-        Using the opened 
+        Using the opened connections handle the given request
         :param req: The request object which this pool should handle
         """
+        # FIXME: add an implementation
         
 pool = ConnectionPool(options)
 
@@ -96,14 +99,14 @@ class connection_pool():
 
     def __enter__(self):
         for res in self.resources:
-            connection_pool.open(res)
+            self.connection_pool.open(res)
     
         return self.connection_pool
     
     def __exit__(self, exc_type, exc_val, exc_tb):
         try:
             for res in self.resources:
-                connection_pool.close(res)
+                self.connection_pool.close(res)
         except ConnectionException:
             # Silence the ConnectionException since the only cause
             #  can be an already closed Connection
@@ -119,8 +122,8 @@ options = _get_connection_options()
 resources = _get_resources()
 requests = _get_requests()
 
-with connection_pool(options,resources) as connection_ppool:
+with connection_pool(options,resources) as pool:
     for req in requests:
-        connection_ppool.handle(req)
+        pool.handle(req)
 ```
 
