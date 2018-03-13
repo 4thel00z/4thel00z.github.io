@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Python Tipp 2: How to write a generator based context manager"
-date:   2018-13-04 19:19:41 +0100
+date:   2018-04-13 19:19:41 +0100
 categories: python-tipp python contextmanager context manager generator
 
 ---

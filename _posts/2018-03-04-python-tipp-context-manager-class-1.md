@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Python Tipp 1: How to write a class based context manager"
-date:   2018-03-04 19:19:41 +0100
+date:   2018-04-03 19:19:41 +0100
 categories: python-tipp python contextmanager context manager
 
 ---
