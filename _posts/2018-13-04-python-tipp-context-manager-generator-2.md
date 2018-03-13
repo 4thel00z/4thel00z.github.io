@@ -7,7 +7,7 @@ categories: python-tipp python contextmanager context manager generator
 ---
 
 
-Given the ConnectionPool example from the [Python Tipp 1: How to write a class based context manager](2018-03-04-python-tipp-context-manager-class-1.md),
+Given the ConnectionPool example from the [Python Tipp 1: How to write a class based context manager](https://4thel00z.github.io/python-tipp-context-manager-class-1/),
 wa want to proceed to write a generator based context manager.
 Since we have already discussed the advantages of context manager vs. conventional resource handling we will just include the ConnectionPool example for brevity and prcoeed with the generator based example:
 
