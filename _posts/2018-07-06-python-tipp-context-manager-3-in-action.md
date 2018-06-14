@@ -1,10 +1,13 @@
 ---
 layout: post
-title:  "Python Tipp 3: Contextmanagers in action: writing a rename context manager"
-date:   2018-05-26 19:10:00 +0100
-categories: python-tipp python contextmanager context manager threading hacks locks snippets
+title:  "Python Tipp 3: Context manager in action"
+date:   2018-05-26 19:19:41 +0100
+categories: python-tipp python contextmanager context manager generator asyncio interact corouutines
 comments: true
 ---
+
+Let's use our newly acquired knowledge about context managers to tackle a problem data scientists often find themselves
+confronted with.
 
 ### Problem
 
@@ -40,16 +43,16 @@ The code might look very similiar to this:
 
 import threading
 
+_rename_lock = threading.Lock()
 
 class rename:
-    _lock = threading.Lock()
 
     def __init__(self, **kwargs):
         self.abbrs = kwargs
         self.store = {}
 
     def __enter__(self):
-        rename._lock.acquire()
+        _rename_lock.acquire()
 
         for key, value in self.abbrs.items():
             try:
@@ -64,7 +67,7 @@ class rename:
                 globals()[key] = self.store[key]
             except KeyError:
                 del globals()[key]
-        rename._lock.release()
+        _rename_lock.release()
 
 ```
 
