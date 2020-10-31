@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Software Developer, Speaker, Trainer and Enterpreneur. Currently working at [Axxessio, Bonn, Germany](https://www.axxessio.com).
+I [hägg](https://www.urbandictionary.com/define.php?term=Hagg#15390684) stuff for a living. Currently my favourite language is go, I'm pretty decent in Python and other languages as well.
 
 ### Interests
 
