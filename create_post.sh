@@ -7,6 +7,6 @@ layout: post
 title:  "$1"
 date:  $(date --rfc-3339=seconds)
 categories: 
-comments: true
+comments: false
 ---
 EOF
