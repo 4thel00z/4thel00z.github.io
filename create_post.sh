@@ -1,7 +1,7 @@
 #! /usr/bin/zsh
 
 
-cat > _posts/$(date --rfc-3339=date)-$2 << EOF
+cat > _posts/$(date --rfc-3339=date)-$2 <<EOF
 ----
 -layout: post
 -title:  "$1"
@@ -9,4 +9,4 @@ cat > _posts/$(date --rfc-3339=date)-$2 << EOF
 -categories: 
 -comments: true
 ----
-EOF 
+EOF
