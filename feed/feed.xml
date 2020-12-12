@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<title>4thel00z.dev</title>
+	<subtitle>Stories of a reformed cyber criminal</subtitle>
+	
+	<link href="https://4thel00z.dev/feed/feed.xml" rel="self"/>
+	<link href="https://4thel00z.dev"/>
+	<updated>2020-12-03T23:00:00+01:00</updated>
+	<id>https://update-me.com</id>
+	<author>
+		<name>Mohamed Mustapha Tahrioui</name>
+		<email></email>
+	</author>
+	
+	<entry>
+		<title>Reboot</title>
+		<link href="https://4thel00z.dev/posts/2020-10-31-reboot/"/>
+		<updated>2020-10-30T23:00:00+01:00</updated>
+		<id>https://4thel00z.dev/posts/2020-10-31-reboot/</id>
+		<content type="html">
+		  &lt;p&gt;This is the reboot of my personal blog.&lt;br&gt;
+The first try started out as some half-hearted attempt of writing about Python.&lt;/p&gt;
+&lt;p&gt;Time flies. Now we are operating using &lt;a href=&quot;https://golang.org/&quot;&gt;go&lt;/a&gt;.&lt;br&gt;
+This blog plans to touch upon multiple disciplines and topics in the realm of h4x0ring things for fun and profit.&lt;/p&gt;
+&lt;p&gt;Stay tuned.&lt;/p&gt;
+
+			
+				
+				
+				&lt;img src=&quot;https://4thel00z.dev/.netlify/functions/ga?v=1&amp;_v=j83&amp;t=pageview&amp;dr=https%3A%2F%2Frss-feed-reader.com&amp;_s=1&amp;dh=4thel00z.dev&amp;dp=%2Fposts%2F2020-10-31-reboot%2F&amp;ul=en-us&amp;de=UTF-8&amp;dt=Reboot&amp;tid=G-XK672WWKL8&quot; width=&quot;1&quot; height=&quot;1&quot; style=&quot;display:none&quot; alt=&quot;&quot;&gt;
+			
+		</content>
+	</entry>
+	
+	<entry>
+		<title>TLS 101</title>
+		<link href="https://4thel00z.dev/posts/2020-11-22-tls-101/"/>
+		<updated>2020-11-21T23:00:00+01:00</updated>
+		<id>https://4thel00z.dev/posts/2020-11-22-tls-101/</id>
+		<content type="html">
+		  &lt;p&gt;This guide is meant to break down some of the intricate complexitites of the TLS 1.3 protocol in plain English&lt;br&gt;
+and serves as a living document for myself and others that want to have a nice overview over the protocol&lt;br&gt;
+with enough level of detail to enable meaningful work with it.&lt;/p&gt;
+&lt;h2 id=&quot;what-is-tls-%3F&quot;&gt;What is TLS ? &lt;a class=&quot;direct-link&quot; href=&quot;#what-is-tls-%3F&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+
+			
+				
+				
+				&lt;img src=&quot;https://4thel00z.dev/.netlify/functions/ga?v=1&amp;_v=j83&amp;t=pageview&amp;dr=https%3A%2F%2Frss-feed-reader.com&amp;_s=1&amp;dh=4thel00z.dev&amp;dp=%2Fposts%2F2020-11-22-tls-101%2F&amp;ul=en-us&amp;de=UTF-8&amp;dt=TLS%20101&amp;tid=G-XK672WWKL8&quot; width=&quot;1&quot; height=&quot;1&quot; style=&quot;display:none&quot; alt=&quot;&quot;&gt;
+			
+		</content>
+	</entry>
+	
+	<entry>
+		<title>go mod -sync</title>
+		<link href="https://4thel00z.dev/posts/2020-11-23-go-mod-sync/"/>
+		<updated>2020-11-22T23:00:00+01:00</updated>
+		<id>https://4thel00z.dev/posts/2020-11-23-go-mod-sync/</id>
+		<content type="html">
+		  &lt;h2 id=&quot;silent-deprecation&quot;&gt;Silent deprecation &lt;a class=&quot;direct-link&quot; href=&quot;#silent-deprecation&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;In case you ask yourself why:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;go mod -sync&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;doesnt&#39;t work anymore, it is because it was deprecated in favor of:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;go mod tidy&lt;/code&gt;&lt;/p&gt;
+
+			
+				
+				
+				&lt;img src=&quot;https://4thel00z.dev/.netlify/functions/ga?v=1&amp;_v=j83&amp;t=pageview&amp;dr=https%3A%2F%2Frss-feed-reader.com&amp;_s=1&amp;dh=4thel00z.dev&amp;dp=%2Fposts%2F2020-11-23-go-mod-sync%2F&amp;ul=en-us&amp;de=UTF-8&amp;dt=go%20mod%20-sync&amp;tid=G-XK672WWKL8&quot; width=&quot;1&quot; height=&quot;1&quot; style=&quot;display:none&quot; alt=&quot;&quot;&gt;
+			
+		</content>
+	</entry>
+	
+	<entry>
+		<title>lfs: go module checksum mismatch</title>
+		<link href="https://4thel00z.dev/posts/2020-12-04-go-mod-checksum/"/>
+		<updated>2020-12-03T23:00:00+01:00</updated>
+		<id>https://4thel00z.dev/posts/2020-12-04-go-mod-checksum/</id>
+		<content type="html">
+		  &lt;p&gt;The other day I was troubleshooting weird go module checksum mismatches for my &lt;a href=&quot;https://github.com/4thel00z/lambda&quot;&gt;lambda&lt;/a&gt; module..&lt;/p&gt;
+&lt;p&gt;It was driving me nuts why the go module checksum was mismatching.&lt;/p&gt;
+&lt;p&gt;I was assuming that this was relating to me ammending my tags and force pushing it (and I can confirm that this breaks the checksum too but is somewhat expected :D).&lt;/p&gt;
+&lt;p&gt;However even after pushing a new tag it was still broken.&lt;/p&gt;
+&lt;p&gt;I found the solution when I read this &lt;a href=&quot;https://github.com/golang/go/issues/39720&quot;&gt;issue&lt;/a&gt; in the go issue tracker.&lt;/p&gt;
+&lt;p&gt;go module checksum mechanism does not support git extension like git-lfs yet, which I happened to use for my project to host the image (which was complete nonesense, since the image is just a couple of kbytes..).&lt;/p&gt;
+&lt;p&gt;After removing git-lfs and creating a new tag I could finally use my library :).&lt;/p&gt;
+
+			
+				
+				
+				&lt;img src=&quot;https://4thel00z.dev/.netlify/functions/ga?v=1&amp;_v=j83&amp;t=pageview&amp;dr=https%3A%2F%2Frss-feed-reader.com&amp;_s=1&amp;dh=4thel00z.dev&amp;dp=%2Fposts%2F2020-12-04-go-mod-checksum%2F&amp;ul=en-us&amp;de=UTF-8&amp;dt=lfs%3A%20go%20module%20checksum%20mismatch&amp;tid=G-XK672WWKL8&quot; width=&quot;1&quot; height=&quot;1&quot; style=&quot;display:none&quot; alt=&quot;&quot;&gt;
+			
+		</content>
+	</entry>
+</feed>

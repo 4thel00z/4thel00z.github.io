@@ -1,0 +1,37 @@
+{
+  "version": "https://jsonfeed.org/version/1",
+  "title": "4thel00z.dev",
+  "home_page_url": "https://4thel00z.dev",
+  "feed_url": "https://4thel00z.dev/feed/feed.json",
+  "description": "Stories of a reformed cyber criminal",
+  "author": {
+    "name": "Mohamed Mustapha Tahrioui",
+    "url": ""
+  },
+  "items": [{
+      "id": "https://4thel00z.dev/posts/2020-12-04-go-mod-checksum/",
+      "url": "https://4thel00z.dev/posts/2020-12-04-go-mod-checksum/",
+      "title": "lfs: go module checksum mismatch",
+      "content_html": "<p>The other day I was troubleshooting weird go module checksum mismatches for my <a href=\"https://github.com/4thel00z/lambda\">lambda</a> module..</p>\n<p>It was driving me nuts why the go module checksum was mismatching.</p>\n<p>I was assuming that this was relating to me ammending my tags and force pushing it (and I can confirm that this breaks the checksum too but is somewhat expected :D).</p>\n<p>However even after pushing a new tag it was still broken.</p>\n<p>I found the solution when I read this <a href=\"https://github.com/golang/go/issues/39720\">issue</a> in the go issue tracker.</p>\n<p>go module checksum mechanism does not support git extension like git-lfs yet, which I happened to use for my project to host the image (which was complete nonesense, since the image is just a couple of kbytes..).</p>\n<p>After removing git-lfs and creating a new tag I could finally use my library :).</p>\n",
+      "date_published": "2020-12-03T23:00:00+01:00"
+    },{
+      "id": "https://4thel00z.dev/posts/2020-11-23-go-mod-sync/",
+      "url": "https://4thel00z.dev/posts/2020-11-23-go-mod-sync/",
+      "title": "go mod -sync",
+      "content_html": "<h2 id=\"silent-deprecation\">Silent deprecation <a class=\"direct-link\" href=\"#silent-deprecation\">#</a></h2>\n<p>In case you ask yourself why:</p>\n<p><code>go mod -sync</code></p>\n<p>doesnt't work anymore, it is because it was deprecated in favor of:</p>\n<p><code>go mod tidy</code></p>\n",
+      "date_published": "2020-11-22T23:00:00+01:00"
+    },{
+      "id": "https://4thel00z.dev/posts/2020-11-22-tls-101/",
+      "url": "https://4thel00z.dev/posts/2020-11-22-tls-101/",
+      "title": "TLS 101",
+      "content_html": "<p>This guide is meant to break down some of the intricate complexitites of the TLS 1.3 protocol in plain English<br>\nand serves as a living document for myself and others that want to have a nice overview over the protocol<br>\nwith enough level of detail to enable meaningful work with it.</p>\n<h2 id=\"what-is-tls-%3F\">What is TLS ? <a class=\"direct-link\" href=\"#what-is-tls-%3F\">#</a></h2>\n",
+      "date_published": "2020-11-21T23:00:00+01:00"
+    },{
+      "id": "https://4thel00z.dev/posts/2020-10-31-reboot/",
+      "url": "https://4thel00z.dev/posts/2020-10-31-reboot/",
+      "title": "Reboot",
+      "content_html": "<p>This is the reboot of my personal blog.<br>\nThe first try started out as some half-hearted attempt of writing about Python.</p>\n<p>Time flies. Now we are operating using <a href=\"https://golang.org\">go</a>.<br>\nThis blog plans to touch upon multiple disciplines and topics in the realm of h4x0ring things for fun and profit.</p>\n<p>Stay tuned.</p>\n",
+      "date_published": "2020-10-30T23:00:00+01:00"
+    }
+  ]
+}
