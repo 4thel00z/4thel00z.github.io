@@ -5,7 +5,7 @@
 	
 	<link href="https://4thel00z.dev/feed/feed.xml" rel="self"/>
 	<link href="https://4thel00z.dev"/>
-	<updated>2020-12-03T23:00:00+01:00</updated>
+	<updated>2021-10-11T20:00:00+02:00</updated>
 	<id>https://update-me.com</id>
 	<author>
 		<name>Mohamed Mustapha Tahrioui</name>
@@ -70,6 +70,39 @@ This blog plans to touch upon multiple disciplines and topics in the realm of h4
 				
 				
 				&lt;img src=&quot;https://4thel00z.dev/.netlify/functions/ga?v=1&amp;_v=j83&amp;t=pageview&amp;dr=https%3A%2F%2Frss-feed-reader.com&amp;_s=1&amp;dh=4thel00z.dev&amp;dp=%2Fposts%2F2020-12-04-go-mod-checksum%2F&amp;ul=en-us&amp;de=UTF-8&amp;dt=lfs%3A%20go%20module%20checksum%20mismatch&amp;tid=G-XK672WWKL8&quot; width=&quot;1&quot; height=&quot;1&quot; style=&quot;display:none&quot; alt=&quot;&quot;&gt;
+			
+		</content>
+	</entry>
+	
+	<entry>
+		<title></title>
+		<link href="https://4thel00z.dev/posts/2021-10-12-templatectl/"/>
+		<updated>2021-10-11T20:00:00+02:00</updated>
+		<id>https://4thel00z.dev/posts/2021-10-12-templatectl/</id>
+		<content type="html">
+		  &lt;hr&gt;
+&lt;h2 id=&quot;title%3A-%22templatectl%22date%3A-%222021-10-12%22categories%3A-%22coding%2C-golang%2C-templating%2C-power-user%2C-cookiecutter%22comments%3A-falselayout%3A-layouts%2Fpost.njk&quot;&gt;title:  &amp;quot;templatectl&amp;quot;&lt;br&gt;
+date:  &amp;quot;2021-10-12&amp;quot;&lt;br&gt;
+categories: &amp;quot;coding, golang, templating, power-user, cookiecutter&amp;quot;&lt;br&gt;
+comments: false&lt;br&gt;
+layout: layouts/post.njk &lt;a class=&quot;direct-link&quot; href=&quot;#title%3A-%22templatectl%22date%3A-%222021-10-12%22categories%3A-%22coding%2C-golang%2C-templating%2C-power-user%2C-cookiecutter%22comments%3A-falselayout%3A-layouts%2Fpost.njk&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Because of my python background I sometimes miss the powerful project boilerplating tool called &lt;a href=&quot;https://github.com/cookiecutter/cookiecutter&quot;&gt;cookiecutter&lt;/a&gt;.&lt;br&gt;
+While I find it convenient I also found it annoying that it was not lightweight, had a clunky API and needed a Python interpreter to run.&lt;br&gt;
+Why noone built sth. like cookiecutter in go? :(&lt;br&gt;
+Then I came across &lt;a href=&quot;https://github.com/tmrts/boilr&quot;&gt;boilr&lt;/a&gt;. While it looked promising at first, it was an abandonware.&lt;br&gt;
+So I thought it might be a good idea to build something on top of it called &lt;a href=&quot;https://github.com/4thel00z/templatectl&quot;&gt;templatectl&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Current enhancements include a self upgrade mechanism and some filters for ease of use.&lt;br&gt;
+Also I have created two new templates which play well with my other projects:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/4thel00z/blog-post-template&quot;&gt;blog-post-template&lt;/a&gt; - This is for generating posts for this blogging plattform&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/4thel00z/service-templated-module&quot;&gt;service_templated module&lt;/a&gt; - This is for generating modules for &lt;a href=&quot;https://github.com/4thel00z/service_templated&quot;&gt;service_templated&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If you like the idea give it a spin, peace.&lt;/p&gt;
+
+			
+				
+				
+				&lt;img src=&quot;https://4thel00z.dev/.netlify/functions/ga?v=1&amp;_v=j83&amp;t=pageview&amp;dr=https%3A%2F%2Frss-feed-reader.com&amp;_s=1&amp;dh=4thel00z.dev&amp;dp=%2Fposts%2F2021-10-12-templatectl%2F&amp;ul=en-us&amp;de=UTF-8&amp;dt=undefined&amp;tid=G-XK672WWKL8&quot; width=&quot;1&quot; height=&quot;1&quot; style=&quot;display:none&quot; alt=&quot;&quot;&gt;
 			
 		</content>
 	</entry>
