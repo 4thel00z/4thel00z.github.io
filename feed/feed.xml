@@ -83,7 +83,7 @@ This blog plans to touch upon multiple disciplines and topics in the realm of h4
 		  &lt;p&gt;Because of my python background I sometimes miss the powerful project boilerplating tool called &lt;a href=&quot;https://github.com/cookiecutter/cookiecutter&quot;&gt;cookiecutter&lt;/a&gt;.&lt;br&gt;
 While I find it convenient I also found it annoying that it was not lightweight, had a clunky API and needed a Python interpreter to run.&lt;br&gt;
 Why noone built sth. like cookiecutter in go? :(&lt;br&gt;
-Then I came across &lt;a href=&quot;https://github.com/tmrts/boilr&quot;&gt;boilr&lt;/a&gt;. While it looked promising at first, it was an abandonware.&lt;br&gt;
+Then I came across &lt;a href=&quot;https://github.com/tmrts/boilr&quot;&gt;boilr&lt;/a&gt;. While it looked promising at first, it was abandonware.&lt;br&gt;
 So I thought it might be a good idea to build something on top of it called &lt;a href=&quot;https://github.com/4thel00z/templatectl&quot;&gt;templatectl&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Current enhancements include a self upgrade mechanism and some filters for ease of use.&lt;br&gt;
 Also I have created two new templates which play well with my other projects:&lt;/p&gt;
