@@ -9,6 +9,12 @@
     "url": ""
   },
   "items": [{
+      "id": "https://4thel00z.dev/posts/2021-11-25-unix-domain-sockets/",
+      "url": "https://4thel00z.dev/posts/2021-11-25-unix-domain-sockets/",
+      "title": "Unix domain sockets",
+      "content_html": "<p>I am currently investigating if it is possible to share a unix domain socket over tcp.</p>\n<p><a href=\"https://man7.org/linux/man-pages/man7/unix.7.html\">This resource</a> turned out to be helpful and helped me answer <a href=\"https://man7.org/linux/man-pages/man7/unix.7.html\">this SO question</a> about some unix domain socket quirks.</p>\n<p>Interestingly unix domain socket files are not removed by the OS. You have to manually make sure they do not exist before calling <code>bind</code>.<br>\nThis holds true unless you use <code>abstract namespace unix domain sockets</code>.</p>\n<p>Weird.</p>\n",
+      "date_published": "2021-11-24T23:00:00+01:00"
+    },{
       "id": "https://4thel00z.dev/posts/2021-10-12-templatectl/",
       "url": "https://4thel00z.dev/posts/2021-10-12-templatectl/",
       "title": "templatectl",

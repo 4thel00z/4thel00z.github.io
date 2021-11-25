@@ -5,7 +5,7 @@
 	
 	<link href="https://4thel00z.dev/feed/feed.xml" rel="self"/>
 	<link href="https://4thel00z.dev"/>
-	<updated>2021-10-11T22:00:00+02:00</updated>
+	<updated>2021-11-24T23:00:00+01:00</updated>
 	<id>https://update-me.com</id>
 	<author>
 		<name>Mohamed Mustapha Tahrioui</name>
@@ -97,6 +97,26 @@ Also I have created two new templates which play well with my other projects:&lt
 				
 				
 				&lt;img src=&quot;https://4thel00z.dev/.netlify/functions/ga?v=1&amp;_v=j83&amp;t=pageview&amp;dr=https%3A%2F%2Frss-feed-reader.com&amp;_s=1&amp;dh=4thel00z.dev&amp;dp=%2Fposts%2F2021-10-12-templatectl%2F&amp;ul=en-us&amp;de=UTF-8&amp;dt=templatectl&amp;tid=G-XK672WWKL8&quot; width=&quot;1&quot; height=&quot;1&quot; style=&quot;display:none&quot; alt=&quot;&quot;&gt;
+			
+		</content>
+	</entry>
+	
+	<entry>
+		<title>Unix domain sockets</title>
+		<link href="https://4thel00z.dev/posts/2021-11-25-unix-domain-sockets/"/>
+		<updated>2021-11-24T23:00:00+01:00</updated>
+		<id>https://4thel00z.dev/posts/2021-11-25-unix-domain-sockets/</id>
+		<content type="html">
+		  &lt;p&gt;I am currently investigating if it is possible to share a unix domain socket over tcp.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://man7.org/linux/man-pages/man7/unix.7.html&quot;&gt;This resource&lt;/a&gt; turned out to be helpful and helped me answer &lt;a href=&quot;https://man7.org/linux/man-pages/man7/unix.7.html&quot;&gt;this SO question&lt;/a&gt; about some unix domain socket quirks.&lt;/p&gt;
+&lt;p&gt;Interestingly unix domain socket files are not removed by the OS. You have to manually make sure they do not exist before calling &lt;code&gt;bind&lt;/code&gt;.&lt;br&gt;
+This holds true unless you use &lt;code&gt;abstract namespace unix domain sockets&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Weird.&lt;/p&gt;
+
+			
+				
+				
+				&lt;img src=&quot;https://4thel00z.dev/.netlify/functions/ga?v=1&amp;_v=j83&amp;t=pageview&amp;dr=https%3A%2F%2Frss-feed-reader.com&amp;_s=1&amp;dh=4thel00z.dev&amp;dp=%2Fposts%2F2021-11-25-unix-domain-sockets%2F&amp;ul=en-us&amp;de=UTF-8&amp;dt=Unix%20domain%20sockets&amp;tid=G-XK672WWKL8&quot; width=&quot;1&quot; height=&quot;1&quot; style=&quot;display:none&quot; alt=&quot;&quot;&gt;
 			
 		</content>
 	</entry>
